@@ -1,0 +1,84 @@
+.programs-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .success-rate {
+    background-color: #f8d7da;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .success-rate p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .programs-content {
+    text-align: center;
+  }
+  
+  .programs-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    background-color: #b0ff92;
+    padding: 0 5px;
+  }
+  
+  .programs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .program-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .program-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .program-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Placeholder for icons - these classes should be replaced with actual icon styles or images */
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+  }
+  
+  .meal-plans-icon {
+    background-image: url('D:\vm\Mini-Project\wellness-studio\src\assert\meal.png');
+  }
+  
+  .dieticians-icon {
+    background-image: url('D:\vm\Mini-Project\wellness-studio\src\assert\panel.png');
+  }
+  
+  .superfoods-icon {
+    background-image: url('D:\vm\Mini-Project\wellness-studio\src\assert\superfoods.png');
+  }
+  
+  .tutorials-icon {
+    background-image: url('D:\vm\Mini-Project\wellness-studio\src\assert\online.png');
+  }
+
+  .logout { 
+    float: right;
+    width: 70px;
+    border-radius: 6px;
+}
