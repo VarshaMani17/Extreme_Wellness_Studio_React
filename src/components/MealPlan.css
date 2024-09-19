@@ -1,0 +1,49 @@
+.meal-plan-container {
+    padding: 20px;
+  }
+  
+  .meal-section {
+    margin-bottom: 30px;
+  }
+  
+  .meal-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .meal-items {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .meal-item {
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-item img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .meal-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .meal-items::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .meal-items::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  

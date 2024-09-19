@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './AdminDashboard.css'; // Import the CSS file
+import './Userdetails.css'; // Import the CSS file
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div className='container'>
+      <h2>User Details</h2>
       <div className='table-container'>
         <table className='table'>
           <thead>
@@ -21,12 +22,12 @@ function App() {
               <th>Username</th>
               <th>Email</th>
               <th>Password</th>
-              <th>Gender</th>
+              {/* <th>Gender</th>
               <th>Date of Birth</th>
               <th>Age</th>
               <th>Address</th>
               <th>District</th>
-              <th>State</th>
+              <th>State</th> */}
             </tr>
           </thead>
           <tbody>
@@ -36,12 +37,12 @@ function App() {
                   <td>{user.username}</td>
                   <td>{user.email}</td>
                   <td>{user.password}</td>
-                  <td>{user.gender}</td>
+                  {/* <td>{user.gender}</td>
                   <td>{user.dateOfBirth ? new Date(user.dateOfBirth).toLocaleDateString() : ''}</td>
                   <td>{user.age}</td>
                   <td>{user.address}</td>
                   <td>{user.district}</td>
-                  <td>{user.state}</td>
+                  <td>{user.state}</td> */}
                 </tr>
               ))
             }

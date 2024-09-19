@@ -1,0 +1,82 @@
+.deit-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.deit-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.deit-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.deit-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.deit-card:last-child {
+  margin-right: 0;
+}
+
+.deit-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.deit-card-title {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.deit-card-description {
+  font-size: 16px;
+  color: #777;
+}
+
+.deit-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.deit-button {
+  width: 120px; /* Set a fixed width for the buttons */
+  padding: 8px 16px; /* Reduced padding */
+  font-size: 14px;   /* Reduced font size */
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px; /* Space between buttons */
+}
+
+.deit-button:hover {
+  background-color: #0056b3;
+}
+
+.display-container {
+  margin-top: 40px;
+}
+
+.display-item {
+  margin-bottom: 20px;
+}
+
+.image-box, .text-box {
+  margin-bottom: 15px;
+}

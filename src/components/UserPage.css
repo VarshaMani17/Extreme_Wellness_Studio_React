@@ -82,3 +82,98 @@
     width: 70px;
     border-radius: 6px;
 }
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  border-radius: 4px;
+   
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid  rgb(253, 254, 253);
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #adc9e5;
+  border-color: #78b6f9;
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.user-details p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+/* profile */
+.user-page-container {
+  padding: 20px;
+}
+
+.profile-section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.bookapp{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid  rgb(253, 254, 253);
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  background-color: #29ba35;
+}
+
+

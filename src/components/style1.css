@@ -1,0 +1,178 @@
+/* Main container styling */
+.main-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ffffff, #f8f9fa);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  align-items: flex-start; /* Align items at the top */
+}
+
+/* Sidebar navigation */
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  margin-right: 20px;
+  align-items: stretch; /* Ensures full-width links */
+}
+
+.nav-section a {
+  text-decoration: none;
+  color: #333;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  font-weight: 500;
+  background-color: #f8f9fa;
+}
+
+.nav-section a:hover {
+  background-color: #007BFF;
+  color: #fff;
+  border-color: #007BFF;
+  transform: scale(1.05);
+}
+
+/* Content section next to the sidebar */
+.content-section {
+  flex: 1;
+  max-height: 600px;
+  overflow-y: auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content at the start */
+}
+
+/* Style for the section content */
+.section-content {
+  margin-bottom: 25px;
+  width: 100%; /* Ensure full-width for each section */
+}
+
+.container {
+  padding: 25px;
+  width: 100%; /* Ensure full-width for the container */
+}
+
+.section {
+  margin-bottom: 25px;
+  width: 100%; /* Ensure full-width for each section */
+}
+
+/* Headers and text styles */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #343a40;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center; /* Center align the main headers */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #495057;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+p, ul {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #495057;
+}
+
+/* Style for lists within exercises */
+.exercise-group {
+  margin-bottom: 20px;
+}
+
+.exercise-list {
+  padding-left: 25px;
+  margin-bottom: 12px;
+}
+
+.exercise-list li {
+  list-style-type: disc;
+  margin-bottom: 8px;
+  color: #6c757d;
+}
+
+/* Styling for italic notes */
+.note {
+  font-style: italic;
+  color: #868e96;
+}
+
+/*img*/
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.image {
+  flex: 1;
+  min-width: 300px; /* Minimum width for responsive layout */
+  height: 33.33vh; /* Adjust height as needed */
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image:hover img {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Different styles for each image */
+.image1 {
+  border: 5px solid #ff0000; /* Red border for image1 */
+}
+
+.image2 {
+  border-radius: 20px; /* Rounded corners for image2 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for image2 */
+}
+
+.image3 {
+  filter: grayscale(100%); /* Grayscale filter for image3 */
+  transition: filter 0.5s ease;
+}
+
+.image3:hover {
+  filter: grayscale(0); /* Remove grayscale on hover */
+}
+
+
+

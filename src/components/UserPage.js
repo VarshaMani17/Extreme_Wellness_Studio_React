@@ -1,26 +1,26 @@
-import React from 'react';
-import './UserPage.css'; 
-import { useNavigate } from 'react-router-dom';
+import './UserPage.css';
+import { Link } from 'react-router-dom';
+
 
 const UserPage = () => {
-    const navigate = useNavigate();
 
-    const handleLogout = () => {
-        localStorage.removeItem('authToken');
-        navigate('/login');
-    };
     return (
-
-        <div className="programs-container">
-            <div className='logout'>
-                <button onClick={handleLogout}>Logout</button>
+        <div className="user-page-container">
+            <div className="nav-container">
+                <div className="nav-buttons">
+                    <Link to='/diet' className="nav-button">Diet</Link>
+                    <Link to='/products' className="nav-button">Products</Link>
+                    <Link to="/profile" className='nav-button'>Profile</Link>
+                </div>
             </div>
-            <br/>
-            <br/>
+
+            
+
             <div className="success-rate">
-                <p>We have 98% success rate!</p>
+                <p>We have a 98% success rate!</p>
                 <p>People who follow even 80% of our program have a 98% success rate.</p>
             </div>
+
             <div className="programs-content">
                 <h2>What's Included In The <span className="highlight">Programs?</span></h2>
                 <div className="programs-grid">
@@ -45,22 +45,10 @@ const UserPage = () => {
                         <p>Free online tutorials on food & nutrition that will help you understand food & make lifelong changes.</p>
                     </div>
                 </div>
+                <Link to="/appointment" className='bookapp'>Book Appointment</Link>
             </div>
         </div>
     );
 };
 
 export default UserPage;
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,36 @@
+/* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Container for centering content */
+  .container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Style for each button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    margin: 10px; /* Add space between buttons */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+
+
+
+  

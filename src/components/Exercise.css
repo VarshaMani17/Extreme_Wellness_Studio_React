@@ -1,0 +1,66 @@
+/* Package.css */
+
+.package {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.pack {
+    max-width: 800px; /* Reduced container width */
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items */
+}
+
+.d {
+    flex: 1 1 calc(50% - 20px); /* Two items per row, accounting for the gap */
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.d:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.items {
+    padding: 20px;
+    text-align: center;
+}
+
+.items img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.items h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.items button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.items button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,35 @@
+.read-diet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.read-diet-image {
+  width: 2500px; /* Adjust the width as needed */
+  max-width: 1200px; /* Set a maximum width to ensure it doesn't get too large */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.read-diet-content {
+  max-width: 800px;
+  text-align: left;
+}
+
+.read-diet-title {
+  font-size: 2.5em;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.read-diet-paragraph {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}

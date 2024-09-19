@@ -1,0 +1,93 @@
+.product-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    gap: 20px;
+  }
+  
+  .product-detail img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .product-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .product-info button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-info button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .quantity-container button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .quantity-container button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .quantity-container span {
+    font-size: 1.2em;
+    margin: 0 10px;
+  }
+  
+  .product-description-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .product-description p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+
+  .quantity-controller{
+      width: 50px;
+  }

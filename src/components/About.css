@@ -50,3 +50,19 @@
   .address p {
     margin: 0;
   }
+
+  .coach-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.coach-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.coach-details {
+    flex: 1;
+}

@@ -16,12 +16,25 @@ const Login = () => {
         }
     }, [navigate]);
 
+
+
     const handleLogin = async (e) => {
         e.preventDefault();
+    
+        //Check for specific username and password
+        const specificUsername = 'admin';
+        const specificPassword = '123456';
+
+        if (username === specificUsername && password === specificPassword) {
+            navigate('/admin-page'); // Navigate to a specific page for predefined credentials
+            return;
+        }
         try {
             const response = await axios.post('http://localhost:5000/api/auth/login', { username, password });
             const { token } = response.data;
             localStorage.setItem('authToken', token);
+            localStorage.setItem('username', username); // Store username
+            localStorage.setItem('password', password); // Store password (Not recommended in real applications)
             console.log('Login successful');
             navigate('/user');
         } catch (err) {
@@ -29,6 +42,7 @@ const Login = () => {
             console.error(err.response.data);
         }
     };
+    
 
     return (
         <div className="login-container">

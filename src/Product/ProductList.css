@@ -1,0 +1,178 @@
+/* ProductList.css
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .product-img-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .main-image,
+  .hover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product-img-container:hover .hover-image {
+    opacity: 1;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .product-details {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #ff5722;
+    margin: 8px 0;
+  }
+  
+  .product-flavor {
+    font-size: 14px;
+    color: #777;
+  }
+  
+
+  .cart-button{
+    width: 100px;
+    background-color: white;
+    color:black;
+  } */
+  .product-list-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  .cart-button {
+    background-color: white;
+    color:black;
+    border: none;
+    width:78px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-button:hover {
+    background-color: #adc9e5;
+    border-color: #78b6f9;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .product-img-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .main-image,
+  .hover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product-img-container:hover .hover-image {
+    opacity: 1;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .product-details {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #ff5722;
+    margin: 8px 0;
+  }
+  
+  .product-flavor {
+    font-size: 14px;
+    color: #777;
+  }
+  
